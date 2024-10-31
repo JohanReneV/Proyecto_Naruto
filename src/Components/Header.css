@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://c.wallhere.com/photos/3f/e9/1280x768_px_clouds_night-514222.jpg!d');
+    background-size: cover;
+    background-position: center;
+    color: rgb(247, 246, 246);
+  }
+  
+  #image-movie {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;      
+    border: 5px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    color: rgb(2, 2, 2);
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(165, 41, 41);
+  }
+  

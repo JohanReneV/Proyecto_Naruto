@@ -1,0 +1,54 @@
+.favoritos-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #343a40;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.favorito-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.favorito-card:hover {
+  transform: scale(1.05);
+}
+
+.favorito-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.no-image {
+  background-color: #e9ecef;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #6c757d;
+}
+
+p {
+  margin: 5px 0;
+}

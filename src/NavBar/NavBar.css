@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.nav-button {
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: rgb(135, 45, 45);
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
